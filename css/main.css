@@ -9,9 +9,6 @@ body {
 }
 
 div#container {
-    border-size: 5px;
-    border-style: solid;
-    border-color: olive;
     /* auto centre layout */
     width: 80%;
     margin-right: auto;
@@ -27,6 +24,7 @@ footer {
     clear: both;
 }
 
+/* Link text styles */
 a {
     color: papayawhip;
 }
@@ -143,6 +141,28 @@ h6 {
 	
 .nav a:hover, nav a:visited, nav a:focus {
     color: white;
+}
+
+/* Dropdown list styles */
+.dropdown {
+    position: absolute;
+    top: 48px;
+    display: none;
+    background-image: url(../Assets/images/stardust.png);
+}
+	
+.dropdown li {
+    display: block;
+}
+	
+.dropdown a {
+    width: 130px;
+}
+	
+li:hover > .dropdown {
+    display: block;
+    width: 130px;
+    text-align: center;
 }
 
 
