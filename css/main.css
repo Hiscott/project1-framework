@@ -1,10 +1,11 @@
-/* Site-wide CSS styles */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
+/* Site-wide CSS styles */
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
     color: white;
+    /* background image taken from subtlepatterns.com */
     background-image: url(../Assets/images/congruent_outline.png);
 }
 
@@ -37,12 +38,14 @@ a:active {
     color: green;
 }
 
-/* Products Page Styles */
+/* Products and Services Page Styles */
 .products {
     border: 3px solid black;
     padding: 20px;
     margin-bottom: 20px;
 }
+
+
 
 /* Contact & Purchase Page Styles */
 .legend {
@@ -148,6 +151,7 @@ h6 {
     position: absolute;
     top: 48px;
     display: none;
+    /* background image taken from subtlepatterns.com */
     background-image: url(../Assets/images/stardust.png);
 }
 	

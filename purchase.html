@@ -45,6 +45,7 @@
                                     <option value="Tech2">Robin</option>
                                     <option value="Tech3">Catwoman</option>
                                     <option value="Tech4">Joker</option>
+                                    <option value="Tech4">Insurance</option>
                                 </select>
                             </div>
                             
@@ -64,8 +65,8 @@
                             </div>
                                                      
                             <div class="row formGroup">
-                                <label for="UPC">UPC:</label>
-                                <input type="text" id="upc" name="upc" class="FormControl" placeholder="Enter the product UPC" required autofocus>
+                                <label for="specialNotes">Special Notes:</label>
+                                <input type="text" id="notes" name="notes" class="FormControl" placeholder="Any Special Instructions?">
                             </div>
                             
                             <!-- Radio button for extended warranty -->
@@ -77,8 +78,8 @@
                             
                             <!-- Checkboxes for TOS/Privacy -->
                             <div class="row formGroup" required>
-                                <input type="checkbox" name="terms" value="TOS">Do you accept our <a href="#">Terms of Service</a>?<br>
-                                <input type="checkbox" name="terms" value="Privacy">Do you accept our <a href="#">Privacy Policy</a>?
+                                <input type="checkbox" name="terms" value="TOS" required autofocus>Do you accept our <a href="#">Terms of Service</a>?<br>
+                                <input type="checkbox" name="terms" value="Privacy" required autofocus>Do you accept our <a href="#">Privacy Policy</a>?
                             </div>
                             
                             <!-- Submit Button -->
