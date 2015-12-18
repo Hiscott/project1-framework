@@ -14,6 +14,6 @@ function organized() {
     // add an event listener to the toggle button
     for (var i=0; i<toggleButton.length;i++) {
         addEvent(toggleButton[i], 'click', toggleButtonClicked);
-        toggleButtonClicker();
+    }
 }
-}
+organized();
