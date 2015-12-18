@@ -1,0 +1,130 @@
+/* Site-wide CSS styles */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+    color: white;
+    background-image: url(../Assets/images/congruent_outline.png);
+}
+
+div#container {
+    border-size: 5px;
+    border-style: solid;
+    border-color: olive;
+    /* auto centre layout */
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+    border-top: 3px solid black;
+}
+
+
+/* Products Page Styles */
+.products {
+    border: 3px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.legend {
+    font-weight: bold;
+}
+
+
+
+/* Contact & Purchase Page Styles */
+.legend {
+    font-weight: bold;
+}
+
+.forms {
+    border: 5px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* heading styles */
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 2em;
+	line-height: 2.2em;
+}
+
+h2 {
+	font-size: 1.5em;
+	line-height: 2em;
+}
+
+h3 {
+	font-size: 1.17em;
+	line-height: 1.8em;
+}
+
+h4 {
+	line-height: 1.6em;
+}
+
+h5 {
+	font-size: 0.83em;
+	line-height: 1.4em;
+}
+
+h6 {
+	font-size: 0.67em;
+	line-height: 1.3em;
+}
+
+/* navigation styles */
+.active {
+	background-color: darkgray;
+}
+
+
+.masthead {
+	background-color: black;
+}
+
+
+.navBar {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+
+.responsive-nav {
+	display: block;
+}
+
+.nav li {	
+	overflow: auto;
+}
+	
+.nav li:hover {
+	background-color: grey;
+}
+	
+.nav a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 0.8em;
+    width: 8em;
+    height: 2.2em;
+}
+	
+.nav a:hover, nav a:visited, nav a:focus {
+    color: white;
+}
+
+
+

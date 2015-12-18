@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact | Batman</title>
+        <!-- Attaching site-wide basic styles -->
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!-- Page container for layout -->
+        <div id="container">
+            <header class="masthead">
+                <h1>Company Name</h1>
+                <nav class="nav">
+                    <ul class="navBar">
+                        <li><a href="index.html" title="Home Page">Home</a></li>
+                        <li><a href="product.html" title="Our Products">Product</a></li>
+                        <li><a href="purchase.html" title="Buy Our Stuff">Purchase</a></li>
+                        <li><a href="about.html" title="Who We Are">About Us</a></li>
+                        <li class = "active"><a href="contact.html" title="Get in touch">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <article class="article">
+                    <h1>Contact Us</h1>
+                    <address>
+                        Batman - DC Comics<br>
+                        99 Madeup St. E<br>
+                        Gotham, ON L4M1A3<br>
+                        TEL:(705) 734-7777<br>
+                    </address>
+                </article> 
+                
+                <section class="contactingUs">
+                    <form action="processform.php" method="post" id"contactForm" class="forms">
+                    <fieldset class="contact">
+                        <legend class="legend">Contact Form</legend>                        
+                            <div class="row formGroup">
+                                <label for="companyName">Company Name:</label>
+                                <input type="text" id="CompanyName" name="CompanyName" class="FormControl" placeholder="Enter Your Company Name" required autofocus>
+                            </div>
+
+                             <div class="row formGroup">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" class="FormControl" placeholder="Enter Your email@companyname.com" required>
+                            </div>
+
+                            <div class="row formGroup">
+                                <label for="phone">Phone:</label>
+                                 <input type="tel" id="phone" name="phone" class="FormControl" placeholder="(XXX) XXX-XXXX" required>
+                             </div>
+
+                            <div class="row formGroup">
+                                <label for="fax">Fax:</label>
+                                <input type="text" id="fax" name="fax" class="FormControl" placeholder="Enter Your Fax" required>
+                            </div>
+
+                            <div class="row formGroup">
+                                <label for="address">Address:</label>
+                                <input type="text" id="address" name="address" class="FormControl" placeholder="Enter Your Address" required>
+                            </div>
+
+                            <div class="row formGroup">
+                                <label for="province">Province/State:</label>
+                                <input type="text" id="province" name="province" class="FormControl" placeholder="Enter Your Province/State" required>
+                            </div>
+
+                            <div class="row formGroup">
+                                <label for="Country">Country:</label>
+                                <input type="text" id="country" name="country" class="FormControl" placeholder="Enter Your Country" required>
+                            </div>
+
+                            <div class="row formGroup">
+                                <label for="postalCode">Postal/Zip Code:</label>
+                                <input type="text" id="postalCode" name="postalCode" class="FormControl" placeholder="Enter Your Postal/Zip Code" required>
+                            </div>
+
+                            <div class="row formGroup">
+                                <label for="subject">Subject:</label>
+                                <input type="text" id="subject" name="subject" class="FormControl" placeholder="Enter Your Subject" required>
+                            </div>
+
+                            <div class="row formGroup">
+                                <label for="question">Your Message</label>
+                                <input type="textarea" id="question" name="question" class="FormControl" placeholder="Enter Your Question here..." required>
+                            </div>
+
+                            <div class="row formGroup">
+                                <input type="submit" id="submitButton" name="submitButton" class="button">
+                            </div>
+
+                        </fieldset>
+                    </form>
+                </section>
+            
+            </main>
+            <footer>
+                <h4>&copy; Copyright 2015</h4>
+            </footer>
+        </div><!-- end div#container -->
+    </body>
+</html>
