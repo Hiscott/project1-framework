@@ -23,6 +23,10 @@ footer {
     margin-top: 20px;
 }
 
+.main {
+    clear: both;
+}
+
 
 /* Products Page Styles */
 .products {
@@ -84,7 +88,7 @@ h6 {
 
 
 .masthead {
-	
+
 }
 
 
@@ -94,10 +98,18 @@ h6 {
 	flex-wrap: wrap;
 	justify-content: flex-end;
     background-image: url(../Assets/images/stardust.png);
+    width: 80%;
+    float: right;
+
+}
+
+.mainLogo {
+    width: 20%;
+    float: left;
 }
 
 .responsive-nav {
-	display: block;
+	display: inline;
 }
 
 .nav li {	
