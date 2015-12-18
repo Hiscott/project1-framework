@@ -13,7 +13,7 @@
         <!-- Page container for layout -->
         <div id="container">
             <header class="masthead">
-                <img class="mainLogo" src="Assets/images/Batman-logo.JPG">
+                <img class="mainLogo" src="Assets/images/Batman-logo.JPG" alt="Batman Logo">
                 <nav class="nav">
                    
                     <ul class="navBar">
@@ -33,12 +33,12 @@
                 <h2>Purchase</h2>
                 <p>Our products are now available to you for a limited time only. To complete the order form are required to have the UPC of the product, found on the <a href="product.html">Products page.</a></p>
                 
-                <section class="orderForm">
-                    <form action="processform.php" method="post" id="orderForm" class="forms">
-                        <fieldset class="contact">
+                <section>
+                    <form action="processform.php" method="post" class="forms">
+                        <fieldset>
                             <legend class="legend">Order Form</legend>                       
                             <!-- Selects for the product of your choice -->
-                            <div class="row formGroup">
+                            <div>
                                 <label for="productPick">What product would you like:</label>
                                 <select>
                                     <option value="Tech1">Batman</option>
@@ -50,41 +50,41 @@
                             </div>
                             
                             <div class="row formGroup">
-                                <label for="firstName">First Name:</label>
-                                <input type="text" id="FirstName" name="firstName" class="FormControl" placeholder="Enter Your First Name" required autofocus>
+                                <label for="FirstName">First Name:</label>
+                                <input type="text" name="FirstName" placeholder="Enter Your First Name" required>
                             </div>
                             
                             <div class="row formGroup">
                                 <label for="lastName">Last Name:</label>
-                                <input type="text" id="lastName" name="lastName" class="FormControl" placeholder="Enter Your Last Name" required autofocus>
+                                <input type="text" name="lastName" placeholder="Enter Your Last Name" required>
                             </div>
                             
                             <div class="row formGroup">
                                 <label for="homeAddress">Home Address:</label>
-                                <input type="text" id="homeAddress" name="homeAddress" class="FormControl" placeholder="123 Street lane, Barrie, Ontario Canada" required autofocus>
+                                <input type="text" name="homeAddress" placeholder="123 Street lane, Barrie, Ontario Canada" required>
                             </div>
                                                      
-                            <div class="row formGroup">
+                            <div>
                                 <label for="specialNotes">Special Notes:</label>
-                                <input type="text" id="notes" name="notes" class="FormControl" placeholder="Any Special Instructions?">
+                                <input type="text" name="specialNotes" placeholder="Any Special Instructions?">
                             </div>
                             
                             <!-- Radio button for extended warranty -->
-                            <div class="row formGroup">
-                                <label for="warranty">Would you like to buy the extended Warranty?</label>
+                            <div>
+                                <label for="Warranty">Would you like to buy the extended Warranty?</label>
                                 <input type="radio" name="Warranty" value="yes">Yes
                                 <input type="radio" name="Warranty" value="no">No
                             </div>
                             
                             <!-- Checkboxes for TOS/Privacy -->
-                            <div class="row formGroup" required>
-                                <input type="checkbox" name="terms" value="TOS" required autofocus>Do you accept our <a href="#">Terms of Service</a>?<br>
-                                <input type="checkbox" name="terms" value="Privacy" required autofocus>Do you accept our <a href="#">Privacy Policy</a>?
+                            <div>
+                                <input type="checkbox" name="terms" value="TOS" required>Do you accept our <a href="#">Terms of Service</a>?<br>
+                                <input type="checkbox" name="terms" value="Privacy" required>Do you accept our <a href="#">Privacy Policy</a>?
                             </div>
                             
                             <!-- Submit Button -->
-                            <div class="row formGroup">
-                                <input type="submit" id="submitButton" name="submitButton" class="button">
+                            <div>
+                                <input type="submit" name="submitButton">
                             </div>
                         </fieldset>
                     </form>
