@@ -27,6 +27,17 @@ footer {
     clear: both;
 }
 
+a {
+    color: papayawhip;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
 
 /* Products Page Styles */
 .products {
