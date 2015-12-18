@@ -40,7 +40,7 @@
                             <!-- Selects for the product of your choice -->
                             <div>
                                 <label for="productPick">What product would you like:</label>
-                                <select>
+                                <select id="productPick">
                                     <option value="Tech1">Batman</option>
                                     <option value="Tech2">Robin</option>
                                     <option value="Tech3">Catwoman</option>
@@ -49,17 +49,17 @@
                                 </select>
                             </div>
                             
-                            <div class="row formGroup">
+                            <div>
                                 <label for="FirstName">First Name:</label>
                                 <input type="text" id="FirstName" name="FirstName" placeholder="Enter Your First Name" required>
                             </div>
                             
-                            <div class="row formGroup">
+                            <div>
                                 <label for="lastName">Last Name:</label>
-                                <input type="text" id="LastName" name="lastName" placeholder="Enter Your Last Name" required>
+                                <input type="text" id="LastName" name="LastName" placeholder="Enter Your Last Name" required>
                             </div>
                             
-                            <div class="row formGroup">
+                            <div>
                                 <label for="homeAddress">Home Address:</label>
                                 <input type="text" id="homeAddress" name="homeAddress" placeholder="123 Street lane, Barrie, Ontario Canada" required>
                             </div>
@@ -72,8 +72,8 @@
                             <!-- Radio button for extended warranty -->
                             <div>
                                 <label for="Warranty">Would you like to buy the extended Warranty?</label>
-                                <input type="radio" name="Warranty" value="yes">Yes
-                                <input type="radio" name="Warranty" value="no">No
+                                <input type="radio" id="Warranty" name="Warranty" value="yes">Yes
+                                <input type="radio" id="Warranty" name="Warranty" value="no">No
                             </div>
                             
                             <!-- Checkboxes for TOS/Privacy -->
