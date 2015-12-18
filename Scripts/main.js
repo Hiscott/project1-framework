@@ -1,5 +1,5 @@
 // Variable Declarations
-var toggleButton = document.getElementById("menu-button");
+var toggleButton = document.getElementsByTagName("button");
 var counter = 0;
 
 
